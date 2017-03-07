@@ -1,0 +1,28 @@
+.body-button
+{
+	border-radius: 5px;
+	border: 1px solid transparent;
+	box-shadow: none;
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 15px 20px;
+
+	&.-primary
+	{
+		background: $color-electric-violet;
+		color: $color-white;
+	}
+
+	&.-secondary
+	{
+		background: $color-calypso;
+		color: $color-white;
+	}
+
+	&.-tertiary
+	{
+		background: $color-silver;
+		color: $color-white;
+	}
+}

@@ -1,0 +1,34 @@
+.search-form
+{
+	overflow: hidden;
+
+	> .text
+	{
+		margin: 0 0 15px;
+		color: $color-electric-violet;
+	}
+
+	> .input
+	{
+		background: $color-white;
+		border: 1px solid $color-silver;
+		border-radius: 4px;
+		padding: 15px 20px;
+		color: $color-calypso;
+		float: left;
+		width: calc(#{percentage(4 / 5)} - 10px);
+		margin-right: 10px;
+
+		&:focus
+		{
+			outline: none;
+			border-color: $color-electric-violet;
+		}
+	}
+
+	> .body-button
+	{
+		float: left;
+		width: percentage(1 / 5);
+	}
+}

@@ -1,0 +1,13 @@
+.body-section
+{
+	width: 100%;
+	max-width: 800px;
+	padding: 50px;
+	margin: 100px auto;
+
+	&.-border
+	{
+		border: 3px solid $color-silver;
+		border-radius: 10px;
+	}
+}
